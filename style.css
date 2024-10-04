@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', 'sans-serif';
+}
+
+.hero{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    max-width: 280px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 25px; 
+    height: auto;
+    margin-top: 120px;
+}
+
+.card h2{
+    font-size: 12px; 
+    font-weight: 1000; 
+    margin: 10px 10px; 
+}
+
+.card h3{
+    font-size: 10px; 
+    margin: 10px 10px;
+}
+
+#qrcode img{
+    background-color: #2a5bd6; 
+    height: 200px; 
+    border-radius: 5px; 
+    margin: 10px 0;
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 0 0 10px 0  
+    }
+
+footer a {
+    color: hsl(228, 45%, 44%); 
+    }
+
+@media screen and (min-width: 1024px ){
+    *{
+        margin: 0; 
+        padding: 0;
+    }
+
+    .card{
+        max-width: 350px;
+    }
+
+    #qrcode img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .card h2{
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .card h3{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+}
